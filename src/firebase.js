@@ -1,10 +1,6 @@
-// import "dotenv"
-// import firebase from 'firebase'
-// import { useEffect } from "react";
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import 'firebase/compat/auth';
-// apiKey: "AIzaSyDzkKGIclPyVQmtFMqQX1Pk0HzTciV16KA",
 const apiKey=process.env.SECRET_KEY
 const firebaseConfig={
     apiKey: apiKey,
